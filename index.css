@@ -1,0 +1,41 @@
+#invalid {
+	display: none;
+}
+.user_name {
+	position: relative;
+    top: -2px
+}
+.calender{
+	outline: none;
+	border: none;
+}
+.pointer {
+	cursor: pointer;
+}
+.no-ul-style {
+	list-style: none;
+}
+.text-black {
+	color: black;
+}
+.text-white {
+	color: white;
+}
+.box-shadow {
+	 box-shadow: -2px 0 9px -6px black;
+}
+
+a:hover {
+	color: black !important;
+	text-decoration: none!important;
+}
+#Change-pass-div {
+	position: fixed;
+	left: 30%;
+	box-shadow: -2px 0 9px -6px black;
+	z-index: 20;
+	background: white;
+}
+.border-danger {
+	border: 2px solid red;
+}

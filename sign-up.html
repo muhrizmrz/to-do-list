@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List - Sign up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+
+		<div class="row">
+			<header class="col-md-12 pl-4 p-3 bg-info" style="color:white;">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-6 ">
+						<h1 style="position:relative;top: 15px;">To Do List</h1>
+						<p style="left: 10px;">Plan Your Day</p>
+					</div>	
+					<div class="col-md-4 text-right pt-md-4 h4 ">
+						<p id="sign-user-id"></p>
+					</div>				
+				</div>
+		   	</header>
+		</div>
+		<br><br><br>
+
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<form class="sign-form form-group text-center" action="login.html">
+					<h2 id="h2sign">Sign Up</h2><br>
+					<input type="text" class="form-control" name="username" id="sign-user" placeholder="User name"><br><br>
+					<input type="password" class="form-control" id="sign-pass" name="password" placeholder="Password"><br><br>
+					<input type="password" class="form-control" id="sign-pass-conf" name="conf-pass" placeholder="Confirm password"><br><br>
+					<input type="submit" id="sign-submit" class="btn btn-primary text-right" name="sign-up" value="Sign up">
+				</form>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
